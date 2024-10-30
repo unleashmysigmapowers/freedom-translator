@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freedom Translator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/7.2.3/css/flag-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="sidebar">
+    <button id="americanButton"><span class="fi fi-us"></span>American</button>
+</div>
+
+<div class="container">
+    <div style="margin-bottom: 18px;">Current Mode: <span id="mode" class="mode">American</span></div>
+    <textarea id="inputText" rows="4" cols="50" placeholder="Enter your text..."></textarea><br><br>
+    <button id="translateButton">Translate</button>
+    <div id="output" class="output"></div>
+</div>
+
+<script src="scripts.js" type="module"></script>
+
+</body>
+</html>
